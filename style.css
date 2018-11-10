@@ -1,0 +1,179 @@
+
+
+#main {
+  background: #d5d5d7;
+  color: #0e0e42;
+  height: 100%;
+}
+
+#title {
+  text-align: center;
+  /*color: #0e0e42;*/
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+#title h1 {
+  font-size: 60px;
+  margin-bottom: -20px;
+  margin-top: 0;
+}
+
+#title h2 {
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+#image {
+  max-width: 85%;
+  padding: 20px 15px 35px 15px;
+  display: block;
+  margin: auto;
+  border: solid white 5px;
+  background-color: #FFF;
+}
+
+#img-caption {
+  text-align: center;
+  font-weight: bold;
+  margin-top:-30px;
+}
+
+#tribute-info {
+  text-align: center;
+  margin: 20px;
+}
+
+#tribute-info p {
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+.body-of-work {
+  text-align: center;
+  
+}
+
+.container {
+  display: table-cell;
+  height: 100%;
+  justify-content: center;
+  text-align: left;
+  align-content: center;
+  padding: 0 25px;
+  width: 80%;
+}
+
+li {
+  padding-bottom: 7px;
+  margin: 0 auto;
+
+}
+
+.quote {
+  padding: 0 15px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.quote-credit {
+  text-align: right;
+  font-size: .85em;
+  padding-right: 6px;
+}
+
+.more-info {
+  text-align: center;
+  padding: 0 15px;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: tomato;
+}
+
+#tribute-link:hover {
+  color: red;
+}
+
+/********** Media Queries **********/
+
+/* screen min-width 768 */
+        
+@media only screen and (min-width: 768px) {
+
+    #title h2 {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+    #image {
+    max-width: 90%;
+    padding-bottom: 40px;
+  }
+
+  #tribute-info p {
+  padding: 10px 10px;
+  }
+
+  .body-of-work {
+    font-size: 2em;
+  }
+
+  .container {
+    padding-left: 80px;
+  }
+
+  li {
+    font-size: 1.4em;
+  }
+
+  .quote {
+    padding: 0 10px;
+  }
+
+  .quote-credit {
+    margin-top: -15px;
+    padding-right: 35px;
+  }
+
+}
+
+/* screen min-width 1224 */
+
+@media only screen and (min-width: 1224px) {
+
+  #title h1 {
+    font-size: 100px;
+  }
+
+  #image {
+    max-width: 95%;
+  }
+
+  #tribute-info p {
+    font-size: 1.5em;
+  }
+
+  .body-of-work {
+    font-size: 70px;
+  }
+
+  .container {
+    padding-left: 33%;
+  }
+
+  .quote {
+    font-size: 1.25em;
+  }
+
+}
+
+
+
+
+
+
+
+
+
